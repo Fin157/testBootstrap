@@ -17,20 +17,25 @@ body {
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 50px;
+  /* Otázka 1 */
+  font-size: 60px;
+  /* Otázka 2 */
+  text-align: right;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  /* Otázka 6 */
+  /* position: sticky; */
   top: 0;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left;
+  /* Otázka 7 */
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -40,7 +45,8 @@ body {
 
 /* Right-aligned link */
 .navbar a.right {
-  float: right;
+  /* Otázka 7 */
+  float: left;
 }
 
 /* Change color on hover */
@@ -63,21 +69,26 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
-  background-color: #f1f1f1;
+  /* Otázka 8 */
+  flex: 33%;
+  /* Otázka 4 */
+  background-color: #1125aa;
+  color: rgb(206, 206, 206);
   padding: 20px;
 }
 
 /* Main column */
-.main {   
-  flex: 70%;
+.main {
+  /* Otázka 8 */
+  flex: 67%;
   background-color: white;
   padding: 20px;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
+  /* Otázka 5 */
+  padding: 64px 20px;
   background: #474747;
 }
 
@@ -85,15 +96,18 @@ body {
 .footer p {
   text-align: center;
   font-size: 14px;
-  color: #d8d8d8;
+  /* Otázka 3 */
+  color: #23cf2c;
 }
 
 /* Basic styles for the post */
 .post {
-  margin-bottom: 20px;
+  /* Otázka 9 */
+  margin-bottom: 64px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  /* Otázka 10 */
+  border: 1px solid #ff1111;
 }
 
 /* Styles for the post heading */
